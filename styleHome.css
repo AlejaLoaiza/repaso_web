@@ -11,26 +11,26 @@ body {
     color: #fff;
     text-align: center;
     position: relative;
-    height: 100vh; /* Altura exacta de la pantalla */
-    display: flex; /* Centra el contenido */
+    height: 100vh; 
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-/* Logo */
+/* LOGO */
 .logo {
-    font-size: 16px; /* Ajuste del tamaño */
+    font-size: 16px; 
     font-weight: bold;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    position: absolute; /* Posiciona el logo */
-    left: 60px; /* Alineación a la izquierda */
+    position: absolute; 
+    left: 60px;
     top: 30px;
 }
 
-/* Navigation Menu */
+/* MENU */
 nav {
     position: absolute;
     top: 20px;
@@ -54,7 +54,6 @@ nav {
     font-weight: lighter;
 }
 
-/* Sign-Up Button */
 .singUp a {
     padding: 10px 15px;
     background-color: transparent;
@@ -105,25 +104,25 @@ nav {
 .textoBanner .video a {
     font-size: 18px;
     color: white;
-    text-decoration: none; /* Eliminación de la raya debajo */
+    text-decoration: none;
     padding-bottom: 5px;
-    transition: all 0.3s ease; /* Transición suave */
+    transition: all 0.3s ease;
     font-weight: lighter;
     display: inline-flex;
-    align-items: center; /* Alineación del texto y el icono */
-    gap: 5px; /* Espaciado entre texto y el icono */
+    align-items: center;
+    gap: 5px;
 }
 
 .textoBanner .video a i {
-    transition: transform 0.35s ease; /* Transición solo para el icono */
+    transition: transform 0.35s ease; 
 }
 
 .textoBanner .video a:hover {
-    transform: translateX(-5px); /* Desplaza el texto ligeramente a la izquierda */
+    transform: translateX(-5px); 
 }
 
 .textoBanner .video a:hover i {
-    transform: translateX(10px); /* Desplaza el icono ligeramente a la derecha */
+    transform: translateX(10px);
 }
 
 
@@ -136,7 +135,6 @@ nav {
     max-width: 100%;
 }
 
-/* General container */
 .container2 {
     display: flex;
     align-items: center;
@@ -147,18 +145,16 @@ nav {
     height: 80vh;
   }
   
-  /* Individual boxes */
   .container2 div {
     background-color: white;
     border-radius: 0px;
     padding: 17px;
     width: 270px;
-    margin-top: -70px; /* Ajusta según la cantidad que necesites superponer */
-    position: relative; /* Necesario para que las cajas se posicionen correctamente */
-    z-index: 8; /* Asegura que esta sección esté por encima de otras */
+    margin-top: -70px; 
+    position: relative; 
+    z-index: 8; 
   }
   
-  /* Icons */
   .container2 i {
     font-size: 40px;
     color: #6078ea;
@@ -166,7 +162,7 @@ nav {
     padding: 20px 20px 0px 20px;
   }
   
-  /* Headings */
+
   .container2 h3 {
     font-size: 17px;
     margin: 10px 0;
@@ -176,7 +172,7 @@ nav {
     padding: 0px 20px 0px 20px;
   }
   
-  /* Paragraphs */
+
   .container2 p {
     font-size: 13px;
     color: #7e8890;
@@ -209,17 +205,17 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 50px 0px 50px 40px;
-    background-color: #fff; /* Fondo blanco humo */
-    max-width: 100%; /* Ancho máximo */
-    margin: 0 auto; /* Centrar el contenedor */
+    background-color: #fff; 
+    max-width: 100%; 
+    margin: 0 auto; 
 }
 
-/* Estilo para el texto */
+
 .textoEstadistica1 {
     width: 100%;
-    color: #333; /* Texto oscuro */
+    color: #333; 
     line-height: 1.5;
-    padding-right: 10px; /* Separación con la imagen */
+    padding-right: 10px; 
 
 }
 
@@ -227,7 +223,7 @@ nav {
     font-size: 27px;
     font-weight: lighter;
     margin: 50px 0px 0px 155px;
-    color: #4d4c4c; /* Texto negro */
+    color: #4d4c4c; 
 }
 
 .textoEstadistica1 p {
@@ -239,13 +235,13 @@ nav {
     text-align: justify;
 }
 
-/* Estilo para la imagen de Uber */
+
 .logo-uber img {
-    width: 40px; /* Ajusta el tamaño según se necesite */
+    width: 40px; 
     margin: 0px 0px 0px 120px;
 }
 
-/* Estilo para la imagen del autor */
+
 .person1 img {
     width: 40px;
     height: 40px;
@@ -254,26 +250,24 @@ nav {
     vertical-align: middle;
 }
 
-/* Estilo para la imagen estadística */
 .imgEstadistica1 img {
-    width: 730px; /* Imagen más grande */
+    width: 730px; 
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-left: 30px;
 }
 
-/* Estructura de la sección */
+
 .imagenTexto1 {
     display: flex;
     align-items: flex-start;
     gap: 40px;
 }
 
-/* Ajustar la imagen al lado derecho */
 .imgEstadistica1 {
     display: flex;
-    justify-content: flex-end; /* Alinear la imagen al lado derecho */
+    justify-content: flex-end; 
     flex: 1;
 }
 
@@ -283,25 +277,24 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 120px 0px 120px 10px;
-    background-color: #fff; /* Fondo blanco humo */
-    max-width: 100%; /* Ancho máximo */
-    margin: 0 auto; /* Centrar el contenedor */
+    background-color: #fff; 
+    max-width: 100%;
+    margin: 0 auto; 
 }
 
-/* Estilo para el texto */
+
 .textoEstadistica2 {
     width: 100%;
-    color: #333; /* Texto oscuro */
+    color: #333; 
     line-height: 1.5;
-    padding: 0px; /* Separación con la imagen */
-
+    padding: 0px; 
 }
 
 .textoEstadistica2 h2 {
     font-size: 27px;
     font-weight: lighter;
     margin: 30px 135px 0px 35px;
-    color: #4d4c4c; /* Texto negro */
+    color: #4d4c4c;
 }
 
 .textoEstadistica2 p {
@@ -313,13 +306,11 @@ nav {
     text-align: justify;
 }
 
-/* Estilo para la imagen de Uber */
 .logo-facebook img {
     width: 70px;
     margin: 0px 100px 0px 0px;
 }
 
-/* Estilo para la imagen del autor */
 .person2 img {
     width: 40px;
     height: 40px;
@@ -328,14 +319,12 @@ nav {
     vertical-align: middle;
 }
 
-/* Estilo para la sección de estadísticas */
 .imgEstadistica2 img {
-    width: 730px; /* Imagen más grande */
+    width: 730px; 
     height: auto;
     margin-right: 20px;
 }
 
-/* Estructura de la sección */
 .imagenTexto2 {
     display: flex;
     align-items: flex-start;
@@ -347,25 +336,23 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 50px 0px 50px 40px;
-    background-color: #fff; /* Fondo blanco humo */
-    max-width: 100%; /* Ancho máximo */
-    margin: 0 auto; /* Centrar el contenedor */
+    background-color: #fff; 
+    max-width: 100%; 
+    margin: 0 auto;
 }
 
-/* Estilo para el texto */
 .textoEstadistica3 {
     width: 100%;
-    color: #333; /* Texto oscuro */
+    color: #333; 
     line-height: 1.5;
-    padding-right: 10px; /* Separación con la imagen */
-
+    padding-right: 10px; 
 }
 
 .textoEstadistica3 h2 {
     font-size: 27px;
     font-weight: lighter;
     margin: 0px 15px 0px 155px;
-    color: #4d4c4c; /* Texto negro */
+    color: #4d4c4c; 
 }
 
 .textoEstadistica3 p {
@@ -377,13 +364,11 @@ nav {
     text-align: justify;
 }
 
-/* Estilo para la imagen de Uber */
 .logo-twiter img {
-    width: 20px; /* Ajusta el tamaño según se necesite */
+    width: 20px; 
     margin: 0px 0px 0px 120px;
 }
 
-/* Estilo para la imagen del autor */
 .person3 img {
     width: 40px;
     height: 40px;
@@ -392,16 +377,14 @@ nav {
     vertical-align: middle;
 }
 
-/* Estilo para la imagen estadística */
 .imgEstadistica3 img {
-    width: 730px; /* Imagen más grande */
+    width: 730px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-left: 30px;
 }
 
-/* Estructura de la sección */
 .imagenTexto3 {
     display: flex;
     align-items: flex-start;
@@ -550,6 +533,117 @@ nav {
 }
 
 .container7 .col1 a{
+    color: #6078ea;
+    text-decoration: none;
+}
+
+/* Footer Container */
+.footer-container {
+    background-color: #ecedee;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 10%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Footer Section: General Styles */
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.footer-section h3 {
+    color: #474646;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+/* About Section */
+.footer-section-about p {
+    color: #7e8890;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+.footer-section-about a {
+    color: #6078ea;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/* Blog Section */
+.footer-section-blog .blog-post {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.footer-section-blog .blog-post img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.footer-section-blog .blog-post h4 {
+    font-size: 14px;
+    color: #333;
+    margin: 0 0 5px;
+    font-weight: lighter;
+}
+
+.footer-section-blog .blog-post p {
+    font-size: 13px;
+    color: #7e8890;
+    margin: 0;
+    font-weight: lighter;
+}
+
+/* Contact Section */
+.footer-section-contact p {
+    font-size: 13px;
+    color: #7e8890;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.footer-section-contact i {
+    color: #919191;
+    margin-right: 10px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ecedee;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #7e8890;
+    margin: 5px 0;
+    font-weight: lighter;
+}
+
+.footer-bottom a {
+    color: #6078ea;
+    text-decoration: none;
+}
+
+/* Social Icons */
+.social-icons a {
+    margin: 0 10px;
+    font-size: 18px;
     color: #6078ea;
     text-decoration: none;
 }
