@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: "Rubik", serif;
+}
+
+.banner {
+    background: linear-gradient(90deg, #17ead9, #6078ea);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    height: 100vh; /* Altura exacta de la pantalla */
+    display: flex; /* Centra el contenido */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 16px; /* Ajuste del tamaño */
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute; /* Posiciona el logo */
+    left: 60px; /* Alineación a la izquierda */
+    top: 30px;
+}
+
+/* Navigation Menu */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    align-items: center;
+}
+
+.Menu {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.Menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: color 0.3s;
+    font-weight: lighter;
+}
+
+/* Sign-Up Button */
+.singUp a {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #ecedee;
+    border-radius: 5px;
+    transition: 0.3s, color 0.3s;
+    color: #6078ea;
+}
+
+.singUp a:hover {
+    background-color: white;
+    color: #6078ea;
+}
+
+/* seccion 1 */
+.textoBanner {
+    text-align: center;
+}
+
+.textoBanner h1 {
+    font-size: 53px;
+    line-height: 1.15;
+    font-weight: 300;
+    margin-top: 0;
+    align-items: center;
+}
+
+.textoBanner h2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ecedee;
+    line-height: 1.5;
+}
+
+.textoBanner h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.textoBanner h2 a:hover {
+    color: #ecedee;
+}
+
+.textoBanner .video {
+    margin-top: 20px;
+}
+
+.textoBanner .video a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none; /* Eliminación de la raya debajo */
+    padding-bottom: 5px;
+    transition: all 0.3s ease; /* Transición suave */
+    font-weight: lighter;
+    display: inline-flex;
+    align-items: center; /* Alineación del texto y el icono */
+    gap: 5px; /* Espaciado entre texto y el icono */
+}
+
+.textoBanner .video a i {
+    transition: transform 0.35s ease; /* Transición solo para el icono */
+}
+
+.textoBanner .video a:hover {
+    transform: translateX(-5px); /* Desplaza el texto ligeramente a la izquierda */
+}
+
+.textoBanner .video a:hover i {
+    transform: translateX(10px); /* Desplaza el icono ligeramente a la derecha */
+}
+
+/*seccion 2*/
+.container7 {
+    padding: 30px 200px 10px 200px;
+    color: #4d4c4c;
+    text-align: center;
+}
+
+.container7 .text-center2 p {
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    color: #7e8890;
+}
+
+.container7 .info-cont3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+    gap: 0px; /* Espacio entre columnas y filas */
+}
+
+/* Columnas individuales */
+.container7 .col2 {
+    padding: 10px; /* Ajuste de espacio interno */
+    align-items: center;
+}
+
+/* Título e íconos */
+.container7 .col2 h3 {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0px 0px 0px 20px;
+    color:#3a3a3a;
+}
+
+/* Texto dentro de cada columna */
+.container7 .col2 p {
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: left;
+    padding: 0px;
+    line-height: 1.8;
+    margin: 20px;
+    color: #7e8890;
+}
+
+.container7 .col2 a{
+    color: #6078ea;
+    text-decoration: none;
+}
+
+.container7 img{
+    width: 300px;
+}
+
+/*seccion 3*/
+.container8 {
+    padding: 0px 200px 0px 200px;
+    color: #4d4c4c;
+    text-align: center;
+}
+.container8 .text-center3 h2 {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #4d4c4c;
+    padding: 20px 0 50px 0;
+}
+
+.container8 .text-center3 p {
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 1.9;
+    margin-bottom: 50px;
+    color: #7e8890;
+}
+
+.container8 .info-cont4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columnas de igual tamaño */
+    gap: 0px; /* Espacio entre columnas y filas */
+}
+
+/* Columnas individuales */
+.container8 .col3 {
+    padding: 0px; /* Ajuste de espacio interno */
+    align-items: center;
+}
+
+/* Título e íconos */
+.container8 .col3 h3 {
+    font-size: 17px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0px 0px 0px 10px;
+    color:#3a3a3a;
+}
+
+/* Texto dentro de cada columna */
+.container8 .col3 p {
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: left;
+    padding: 0px;
+    line-height: 1.8;
+    margin: 10px;
+    color: #7e8890;
+}

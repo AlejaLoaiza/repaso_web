@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: "Rubik", serif;
+}
+
+.banner {
+    background: linear-gradient(90deg, #17ead9, #6078ea);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    height: 100vh; /* Altura exacta de la pantalla */
+    display: flex; /* Centra el contenido */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 16px; /* Ajuste del tamaño */
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute; /* Posiciona el logo */
+    left: 60px; /* Alineación a la izquierda */
+    top: 30px;
+}
+
+/* Navigation Menu */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    align-items: center;
+}
+
+.Menu {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.Menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: color 0.3s;
+    font-weight: lighter;
+}
+
+/* Sign-Up Button */
+.singUp a {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #ecedee;
+    border-radius: 5px;
+    transition: 0.3s, color 0.3s;
+    color: #6078ea;
+}
+
+.singUp a:hover {
+    background-color: white;
+    color: #6078ea;
+}
+
+/* seccion 1 */
+.textoBanner {
+    text-align: center;
+}
+
+.textoBanner h1 {
+    font-size: 53px;
+    line-height: 1.15;
+    font-weight: 300;
+    margin-top: 0;
+    align-items: center;
+}
+
+.textoBanner h2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ecedee;
+    line-height: 1.5;
+}
+
+.textoBanner h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.textoBanner h2 a:hover {
+    color: #ecedee;
+}
+
+.textoBanner .video {
+    margin-top: 20px;
+}
+
+.textoBanner .video a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none; /* Eliminación de la raya debajo */
+    padding-bottom: 5px;
+    transition: all 0.3s ease; /* Transición suave */
+    font-weight: lighter;
+    display: inline-flex;
+    align-items: center; /* Alineación del texto y el icono */
+    gap: 5px; /* Espaciado entre texto y el icono */
+}
+
+.textoBanner .video a i {
+    transition: transform 0.35s ease; /* Transición solo para el icono */
+}
+
+.textoBanner .video a:hover {
+    transform: translateX(-5px); /* Desplaza el texto ligeramente a la izquierda */
+}
+
+.textoBanner .video a:hover i {
+    transform: translateX(10px); /* Desplaza el icono ligeramente a la derecha */
+}
+
+/* seccion 3 */
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 50px 40px;
+    background-color: #fff; /* Fondo blanco humo */
+    max-width: 100%; /* Ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+/* Estilo para el texto */
+.textoEstadistica1 {
+    width: 100%;
+    color: #333; /* Texto oscuro */
+    line-height: 1.5;
+    padding-right: 10px; /* Separación con la imagen */
+
+}
+
+.textoEstadistica1 h2 {
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 50px 0px 0px 155px;
+    color: #4d4c4c; /* Texto negro */
+}
+
+.textoEstadistica1 p {
+    margin:10px 20px 20px 160px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #7e8890;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilo para la imagen de Uber */
+.logo-uber img {
+    width: 40px; /* Ajusta el tamaño según se necesite */
+    margin: 0px 0px 0px 120px;
+}
+
+/* Estilo para la imagen del autor */
+.person1 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Estilo para la imagen estadística */
+.imgEstadistica1 img {
+    width: 730px; /* Imagen más grande */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+
+/* Estructura de la sección */
+.imagenTexto1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* Ajustar la imagen al lado derecho */
+.imgEstadistica1 {
+    display: flex;
+    justify-content: flex-end; /* Alinear la imagen al lado derecho */
+    flex: 1;
+}
+
+/* seccion 4 */
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 0px 120px 10px;
+    background-color: #fff; /* Fondo blanco humo */
+    max-width: 100%; /* Ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+/* Estilo para el texto */
+.textoEstadistica2 {
+    width: 100%;
+    color: #333; /* Texto oscuro */
+    line-height: 1.5;
+    padding: 0px; /* Separación con la imagen */
+
+}
+
+.textoEstadistica2 h2 {
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 30px 135px 0px 35px;
+    color: #4d4c4c; /* Texto negro */
+}
+
+.textoEstadistica2 p {
+    margin: 10px 200px 10px 40px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #7e8890;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilo para la imagen de Uber */
+.logo-facebook img {
+    width: 70px;
+    margin: 0px 100px 0px 0px;
+}
+
+/* Estilo para la imagen del autor */
+.person2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Estilo para la sección de estadísticas */
+.imgEstadistica2 img {
+    width: 730px; /* Imagen más grande */
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Estructura de la sección */
+.imagenTexto2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+ /*seccion 5*/
+.container5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 50px 40px;
+    background-color: #fff; /* Fondo blanco humo */
+    max-width: 100%; /* Ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+/* Estilo para el texto */
+.textoEstadistica3 {
+    width: 100%;
+    color: #333; /* Texto oscuro */
+    line-height: 1.5;
+    padding-right: 10px; /* Separación con la imagen */
+
+}
+
+.textoEstadistica3 h2 {
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 0px 15px 0px 155px;
+    color: #4d4c4c; /* Texto negro */
+}
+
+.textoEstadistica3 p {
+    margin:10px 20px 20px 160px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #7e8890;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilo para la imagen de Uber */
+.logo-twiter img {
+    width: 20px; /* Ajusta el tamaño según se necesite */
+    margin: 0px 0px 0px 120px;
+}
+
+/* Estilo para la imagen del autor */
+.person3 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Estilo para la imagen estadística */
+.imgEstadistica3 img {
+    width: 730px; /* Imagen más grande */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+
+/* Estructura de la sección */
+.imagenTexto3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* Ajustar la imagen al lado derecho */
+.imgEstadistica3 {
+    display: flex;
+    justify-content: flex-end; /* Alinear la imagen al lado derecho */
+    flex: 1;
+}
